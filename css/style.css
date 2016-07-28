@@ -1,0 +1,394 @@
+body {
+    background-color: #F8EDDB;
+}
+
+/*Home Page -- Index*/
+#jumboHome {
+    background-image: url("../images/hollywood-shorter.png");
+    background-size: cover;
+    color: red;
+    /* original photo from https://www.pexels.com/photo/hollywood-signage-on-mountain-during-daytime-87308/.  Edits and adjustments made */
+}
+
+
+.carousel-inner img {
+  margin: auto;
+} 
+
+
+.carousel img {
+    min-width: 50%;
+}
+
+/*MOVIE PAGE*/
+#movieQuestion {
+    margin-top: 150px;
+}
+
+/* Begin Comedy Box*/
+#comedy {
+    display: none;
+    //height: 560px;
+    //width: 1291px;
+    //margin-left: auto;
+    //Margin-right: auto;
+    /*background-color: green;*/
+}
+
+#comedy1 {
+
+    /*background-color: pink;*/
+    //margin-left: 0px;
+    //margin-right: 5px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    box-shadow: 0px 0px 20px #000000;
+}
+
+#comedy1image {
+    background-image: url("../images/comedy/dr-strangelove.png");
+    background-size: cover;
+    //width: 300px;
+    height: 300px;
+    padding: 10px;
+    border:3px #F8EDDB solid;
+    /*movie Directed by Stanley Kubrick, distributed by Columbia Pictures [Public domain], via Wikimedia Commons ii.	https://commons.wikimedia.org/wiki/File:Dr._Strangelove.png */
+}
+
+#comedy1text {
+    //height: 250px;
+   //width: 300px;
+    padding: 10px;
+    background-color: #DACBBA;
+    padding: 10px;
+    border:3px #F8EDDB solid;
+    /* Movie description quoted and summerized from https://en.wikipedia.org/wiki/Dr._Strangelove */
+}
+
+#comedy2 {
+    //height: 550px;
+    //width: 300px;
+    //margin-left: 15px;
+    //margin-right: 10px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    box-shadow: 0px 0px 20px #000000;
+
+}
+
+#comedy2image {
+    background-image: url("../images/comedy/harvey2.png");
+    background-size: cover;
+    height: 300px;
+    //width: 300px;
+    padding: 10px;
+    border:3px #F8EDDB solid;
+
+    /* Image Citation: Trailer screenshot (Harvey trailer) [Public domain or Public domain], via Wikimedia Commons ii.	https://commons.wikimedia.org/wiki/File:Harvey_trailer.png */
+}
+
+#comedy2text {
+    //height: 250px;
+    //width: 300px;
+    background-color: #DACBBA;
+    padding: 10px;
+    border:3px #F8EDDB solid;
+
+      /* Movie description from https://en.wikipedia.org/wiki/Harvey_(film) */
+}
+
+
+#comedy3 {
+    //height: 550px;
+    //width: 300px;
+     //margin-left: 10px;
+    //margin-right: 10px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    box-shadow: 0px 0px 20px #000000;
+}
+
+#comedy3image {
+    background-image: url("../images/comedy/his-girl-friday.jpg");
+    background-size: cover;
+    height: 300px;
+    //width: 300px;
+        padding: 10px;
+    border:3px #F8EDDB solid;
+    /* Image Citation: By unknown (film screenshot) [Public domain], via Wikimedia Commons https://commons.wikimedia.org/wiki/File:His_Girl_Friday_5.jpg  */
+}
+
+#comedy3text {
+    //height: 250px;
+    //width: 300px;
+    padding: 10px;
+    background-color: #DACBBA;
+    padding: 10px;
+    border:3px #F8EDDB solid;
+    /* Movie description quoted from https://commons.wikimedia.org/wiki/Category:His_Girl_Friday and loosly summerized from https://en.wikipedia.org/wiki/His_Girl_Friday*/
+}
+
+#comedy4 {
+    //height: 550px;
+    //width: 300px;
+
+    //margin-left: 10px;
+    //margin-right: 0px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    box-shadow: 0px 0px 20px #000000;
+}
+
+#comedy4image {
+    background-image: url("../images/comedy/duck-soup.jpg");
+    background-size: cover;
+    height: 300px;
+    //width: 300px;
+    padding: 10px;
+    border:3px #F8EDDB solid;
+    /* Image Citation:  The Mark Brothers - Paramount pictures (The Trailer) [Public domain], via Wikimedia Commons ii.	https://commons.wikimedia.org/wiki/File:Quatre_Germans_Marx_ballant_-_Duck_Soup.jpg   */
+}
+
+#comedy4text {
+    //height: 250px;
+    //width: 300px;
+    padding: 10px;
+    background-color: #DACBBA;
+    padding: 10px;
+    border:3px #F8EDDB solid;
+    /* Movie description loosly quoted and summerized from https://en.wikipedia.org/wiki/Duck_Soup_(1933_film) */
+}
+/*END comedy box*/
+
+/*Begin Drama Movie Suggestions*/
+/* Begin Drama Box*/
+#drama {
+    display: none;
+
+}
+
+#drama1 {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    box-shadow: 0px 0px 20px #000000;
+}
+
+#drama1image {
+    background-image: url("../images/drama/casablanca-resized.png");
+    background-size: cover;
+    height: 300px;
+    padding: 10px;
+    border:3px #F8EDDB solid;
+    /* Trailer screenshot (Casablanca trailer) [Public domain], via Wikimedia Commons https://commons.wikimedia.org/wiki/File:Bogart_in_Casablanca.png */
+}
+
+#drama1text {
+    padding: 10px;
+    background-color: #DACBBA;
+    padding: 10px;
+    border:3px #F8EDDB solid;
+    /* Movie description is an abbriviateed quote from https://en.wikipedia.org/wiki/Casablanca_(film)*/
+}
+
+#drama2 {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    box-shadow: 0px 0px 20px #000000;
+}
+
+#drama2image {
+    background-image: url("../images/drama/all-about-eve.jpg");
+    background-size: cover;
+    height: 300px;
+    padding: 10px;
+    border:3px #F8EDDB solid;
+    /* Image Citation: By Warner Bros. Studio ([1]) [Public domain], via Wikimedia Commons https://commons.wikimedia.org/wiki/File:Bette_Davis_and_Gary_Merrill_in_All_About_Eve.jpg */
+}
+
+#drama2text {
+    padding: 10px;
+    background-color: #DACBBA;
+    padding: 10px;
+    border:3px #F8EDDB solid;
+      /* Movie description loosely quoted and summarized from https://en.wikipedia.org/wiki/All_About_Eve */
+}
+
+
+#drama3 {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    box-shadow: 0px 0px 20px #000000;
+}
+
+#drama3image {
+    background-image: url("../images/drama/citizen-kane1.jpg");
+    background-size: cover;
+    height: 300px;
+    padding: 10px;
+    border:3px #F8EDDB solid;
+    /* Image Citation: By unknown (film screenshot), See page for details re [Public domain], via Wikimedia Commons   https://commons.wikimedia.org/wiki/File:Orson_Welles-Citizen_Kane1.jpg */
+}
+
+#drama3text {
+    padding: 10px;
+    background-color: #DACBBA;
+    padding: 10px;
+    border:3px #F8EDDB solid;
+    /* Movie description loosely quoted and summarized from https://en.wikipedia.org/wiki/Citizen_Kane*/
+}
+
+#drama4 {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    box-shadow: 0px 0px 20px #000000;
+}
+
+#drama4image {
+    background-image: url("../images/drama/twelve-angry-men.png");
+    background-size: cover;
+    height: 300px;
+    padding: 10px;
+    border:3px #F8EDDB solid;
+    /* Image Citation: Movie directed by Sidney Lumet, adapted from a teleplay of the same name by Reginald Rose. [Public domain], via Wikimedia Commons 	https://commons.wikimedia.org/wiki/File:Twelve_Angry_Men.png  */
+}
+
+#drama4text {
+    padding: 10px;
+    background-color: #DACBBA;
+    padding: 10px;
+    border:3px #F8EDDB solid;
+    /* Movie description loosly quoted and summerized from https://en.wikipedia.org/wiki/Duck_Soup_(1933_film) */
+}
+
+
+/*End Drama Movie Suggestions*/
+
+
+/* Begin Suspense Box*/
+#suspense {
+    display: none;
+
+}
+
+#suspense1 {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    box-shadow: 0px 0px 20px #000000;
+}
+
+#suspense1image {
+    background-image: url("../images/suspense/double-indemnity-resized.png");
+    background-size: cover;
+    height: 300px;
+    padding: 10px;
+    border:3px #F8EDDB solid;
+    /*By Time Inc.; photograph by Paramount Pictures (no photographer credited) (Life magazine, Volume 17, Number 2 (page 55)) [Public domain], via Wikimedia Commons https://commons.wikimedia.org/wiki/File:Double-Indemnity-LIFE-1944-2.jpg*/
+}
+
+#suspense1text {
+    padding: 10px;
+    background-color: #DACBBA;
+    padding: 10px;
+    border:3px #F8EDDB solid;
+    /* Movie description 1.	Condensed quotation from https://en.wikipedia.org/wiki/Double_Indemnity_(film) */
+}
+
+#suspense2 {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    box-shadow: 0px 0px 20px #000000;
+}
+
+#suspense2image {
+    background-image: url("../images/suspense/lady-from-shanghai.JPG");
+    background-size: cover;
+    height: 300px;
+    padding: 10px;
+    border:3px #F8EDDB solid;
+    /* Image Citation: By Trailer distributed by Columbia Pictures (DVD with the film & the trailer) [Public domain], via Wikimedia Commons https://commons.wikimedia.org/wiki/File:Lady_from_Shanghai_trailer_hayworth2.JPG*/
+}
+
+#suspense2text {
+    padding: 10px;
+    background-color: #DACBBA;
+    padding: 10px;
+    border:3px #F8EDDB solid;
+      /* Movie description direct quote from https://en.wikipedia.org/wiki/The_Lady_from_Shanghai */
+}
+
+
+#suspense3 {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    box-shadow: 0px 0px 20px #000000;
+}
+
+#suspense3image { 
+    background-image: url("../images/suspense/rebecca.jpg");
+    background-size: cover;
+    height: 300px;
+    padding: 10px;
+    border:3px #F8EDDB solid;
+    /* Image Citation: Trailer screenshot (Rebecca trailer) [Public domain], via Wikimedia Commons https://commons.wikimedia.org/wiki/File:RebeccaTrailer.jpg */
+}
+
+#suspense3text {
+    padding: 10px;
+    background-color: #DACBBA;
+    padding: 10px;
+    border:3px #F8EDDB solid;
+    /* Movie description loosely quoted and summarized from https://en.wikipedia.org/wiki/Rebecca_(1940_film)*/
+}
+
+#suspense4 {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    box-shadow: 0px 0px 20px #000000;
+}
+
+#suspense4image {
+    background-image: url("../images/suspense/manchurian.jpg");
+    background-size: cover;
+    height: 300px;
+    padding: 10px;
+    border:3px #F8EDDB solid;
+    /* Image Citation:  Trailer for "The Manchurian Candidate" (1962) (Trailer for "The Manchurian Candidate" (1962)) [Public domain], via Wikimedia Commons https://commons.wikimedia.org/wiki/File:Henry-silva-trailer.jpg  */
+}
+
+#suspense4text {
+    padding: 10px;
+    background-color: #DACBBA;
+    padding: 10px;
+    border:3px #F8EDDB solid;
+    /* Movie description is an Edited quotation from https://en.wikipedia.org/wiki/The_Manchurian_Candidate_(1962_film) */
+}
+
+/* END Suspense movie suggestions*/
+
+
+
+/*START FORMS*/
+#weather {
+    height:200px;
+  width: 500px;
+  margin: 0px auto;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+#button-box {
+    height:50;
+    width: 75%;
+}
+
+#view {
+    background-image: url("../images/film-strip.jpg");
+    background-size: cover;
+    color: red;
+    /* original photo from https://www.pexels.com/photo/curve-industry-photography-vintage-65128/  -- B&W edits made */
+}
+/* new color scheme from http://www.colourlovers.com/palette/3199906/BW_Photography */
+
+/*color scheme from http://www.colourlovers.com/palette/1738663/Old_Hollywood*/
+
+

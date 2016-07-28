@@ -1,0 +1,32 @@
+$(document).ready(function(){
+$('#comedyButton').click(function(){
+    $('#comedy').effect('slide',{direction:'right'}, 500);
+    $('#comedy1').effect('slide',{direction:'right'}, 500);
+    $('#comedy2').effect('slide',{direction:'right'}, 500).delay(100000);
+    } );
+});
+
+
+$('#dramaButton').click(function(){
+    $('#drama').effect('slide',{direction:'right'}, 500);
+    $('#drama1').effect('slide',{direction:'right'}, 500);
+    $('#drama2').effect('slide',{direction:'right'}, 500).delay(100000);
+    } );
+    
+    
+    
+  <div id="drama2">
+    <div id="comedy2image"></div>
+    <div id="comedy2text"><p>Blah blah blahBlah blah blahBlah blah blahBlah blah blahBlah blah blahBlah blah blahBlah blah blahBlah </p>
+    </div>
+    </div>
+  <div id="drama3">
+    <div id="comedy3image"></div>
+    <div id="comedy3text"><p>Blah blah blahBlah blah blahBlah blah blahBlah blah blahBlah blah blahBlah blah blahBlah blah blahBlah </p>
+    </div>
+    </div>
+  <div id="drama4">
+    <div id="comedy4image"></div>
+    <div id="comedy4text"><p>Blah blah blahBlah blah blahBlah blah blahBlah blah blahBlah blah blahBlah blah blahBlah blah blahBlah </p>
+    </div>
+    </div>
